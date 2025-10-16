@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 @import "tailwindcss";
 
 :root {
@@ -20,7 +22,11 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FAF8F3; /* Soft off-white parchment background */
+  color: #2E2E2E; /* Soft dark gray text for good contrast */
+  font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  min-height: 100vh;
 }
