@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Ankoji Venkata Durgesh",
+    "role": "GDGoC Organizer",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/ankoji-durgesh",
+    "github": "https://github.com/bot-durgesh",
+    "leetcode": "https://leetcode.com/u/Bot_Durgesh",
+    "img": "/assets/durgesh.jpg"
+  },
+  {
+    "name": "Rejeti Nikhil Bhuvana Sharma",
+    "role": "Co-lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/rejeti-nikhil-bhuvana-sharma-72a2a32a2",
+    "github": "https://github.com/nikki1405",
+    "codechef": "https://www.codechef.com/users/nikhilrj321",
+    "img": "/assets/nikhil.jpg"
+  },
+  {
+    "name": "Avinash Pappala",
+    "role": "Technical Lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/avinashpappala",
+    "github": "https://github.com/Avinash829",
+    "leetcode": "https://leetcode.com/u/avinash_829",
+    "img": "/assets/abhi_new.jpg"
+  },
+  {
+    "name": "Raghavendra Nadiminti",
+    "role": "Web Dev Lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/raghavendranadiminti",
+    "github": "https://github.com/Raghavnadiminti",
+    "leetcode": "https://leetcode.com/u/Raghavendra90",
+    "img": "/assets/raghav.jpg "
+  },
+  {
+    "name": "Gurijala Rama Maheeth Varma",
+    "role": "Web Dev Lead",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/maheeth-varma-30a582348",
+    "github": "https://github.com/maheeth07",
+    "leetcode": "https://leetcode.com/u/maheethvarma_07",
+    "img": "/assets/maheet.jpg"
+  },
+  {
+    "name": "Mani Varshith",
+    "role": "AI/ML Lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/mani-varshith-b06ba3329",
+    "github": "https://github.com/varshhhy7",
+    "codeforces": "https://codeforces.com/profile/varshith__7",
+    "img": "/assets/varshith.jpg"
+  },
+  {
+    "name": "Bharath Karthik",
+    "role": "CP/DSA Lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/bharath-karthik-70b082296",
+    "leetcode": "https://leetcode.com/u/bharathkarthik",
+    "codechef": "https://www.codechef.com/users/bharathkarthik",
+    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "name": "Vijay Kumar Tholeti",
+    "role": "Cloud Lead",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/vijay-kumar-tholeti",
+    "github": "https://github.com/vijay-2155",
+    "codechef": "https://www.codechef.com/users/cheeku_1855",
+    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "name": "Vardhan Korada",
+    "role": "Graphic Designer Lead",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/vardhan-korada-a53a652a2",
+    "github": "https://github.com/vardhankorada25",
+    "codechef": "https://www.codechef.com/users/vardhankorada2",
+    "img": "/assets/vardhan.jpg"
+  },
+  {
+    "name": "Bandaru Pravallika",
+    "role": "UI/UX Lead",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/bandaru-pravallika-21a51b283",
+    "github": "https://github.com/Pravallika739",
+    "codechef": "https://www.codechef.com/users/pravallika74",
+    "img": "/assets/pravallika_b.jpg"
+  },
+  {
+    "name": "Pravallika Adari",
+    "role": "Content Lead",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/pravallika-adari-0b7a5b2b6",
+    "github": "https://github.com/pravu2312",
+    "codechef": "https://www.codechef.com/users/pravu2312",
+    "img": "/assets/pravallika.jpg"
+  },
+  {
+    "name": "Jerripotula Sreeja",
+    "role": "Content Lead",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/jerripotula-sreeja-a87a01311",
+    "github": "https://github.com/sreeja-797",
+    "codechef": "https://www.codechef.com/users/sreeja2006",
+    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "name": "Shirin Wafiqah",
+    "role": "Video Editor",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/shirin-wafiqah-563a8a292",
+    "showcase": "https://bento.me/shirinwafiqah",
+    "img": "/assets/shirin.jpg"
+  },
+  {
+    "name": "Dunna Sai Charmi",
+    "role": "Event Manager",
+    "dept": "CSE-AI",
+    "linkedin": "https://www.linkedin.com/in/d-sai-charmi-090a022b6",
+    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+  },
+  {
+    "name": "Vanamu Yashash Chandra Srinivas",
+    "role": "Event Manager",
+    "dept": "CSE",
+    "linkedin": "https://www.linkedin.com/in/vanamu-yashash-chandra-srinivas-74787329b",
+    "github": "https://github.com/Linash0807",
+    "leetcode": "https://leetcode.com/u/hokage08",
+    "img": "/assets/yashash.jpg"
+  }
+]
