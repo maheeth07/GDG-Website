@@ -7,6 +7,8 @@ import SocialMedia from "./components/SocialMedia"
 import FallingParticles from "./components/FallingParticles"
 import Team from "./components/team";
 import ContactUs from "./components/SocialMedia";
+import Events from './components/Events';
+import AboutUs from "./components/AboutUs";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -35,6 +37,8 @@ export default function RootLayout({
         <Navbar/>
         <Home/>
         <FallingParticles/>
+        <AboutUs/>
+        <Events/>
         <Team/>
         <ContactUs/>
         {children}
