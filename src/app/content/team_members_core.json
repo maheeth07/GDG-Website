@@ -60,7 +60,7 @@
     "linkedin": "https://www.linkedin.com/in/bharath-karthik-70b082296",
     "leetcode": "https://leetcode.com/u/bharathkarthik",
     "codechef": "https://www.codechef.com/users/bharathkarthik",
-    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+    "img": "/assets/bharth.jpg"
   },
   {
     "name": "Vijay Kumar Tholeti",
@@ -69,7 +69,7 @@
     "linkedin": "https://www.linkedin.com/in/vijay-kumar-tholeti",
     "github": "https://github.com/vijay-2155",
     "codechef": "https://www.codechef.com/users/cheeku_1855",
-    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+    "img": "/assets/Vijay.jpg"
   },
   {
     "name": "Vardhan Korada",
@@ -105,7 +105,7 @@
     "linkedin": "https://www.linkedin.com/in/jerripotula-sreeja-a87a01311",
     "github": "https://github.com/sreeja-797",
     "codechef": "https://www.codechef.com/users/sreeja2006",
-    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+    "img": "/assets/sreeja.jpg"
   },
   {
     "name": "Shirin Wafiqah",
@@ -120,7 +120,7 @@
     "role": "Event Manager",
     "dept": "CSE-AI",
     "linkedin": "https://www.linkedin.com/in/d-sai-charmi-090a022b6",
-    "img": "https://randomuser.me/api/portraits/men/18.jpg"
+    "img": "/assets/charmi.jpg"
   },
   {
     "name": "Vanamu Yashash Chandra Srinivas",
