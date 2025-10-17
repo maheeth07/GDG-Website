@@ -7,94 +7,56 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full sticky top-0 z-50 bg-[#F1EFEA]/95 backdrop-blur-md border-b border-black/20 font-[Poppins] shadow-sm">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo / Brand */}
-        <div className="flex items-center gap-4">
-  <Image 
-    src="/GDG Logo.svg" 
-    alt="GDG Logo" 
-    width={150}   // ⬅️ increased from 36 → 48
-    height={150}  // ⬅️ increased from 36 → 48
-    priority     // ⬅️ optional: ensures fast load for main logo
-  />
-  <span className="text-2xl font-semibold tracking-tight text-[#111111]">
-    
-  </span>
+    <nav className="w-full fixed top-0 z-50 px-6 py-4 flex justify-between items-center font-[Poppins]">
+      {/* Logo */}
+      <div className="flex items-center gap-4 ml-4">
+        <Image
+          src="/GDG Logo.svg"
+          alt="GDG Logo"
+          width={150}
+          height={150}
+          priority
+        />
+        <span className="text-xl md:text-2xl font-semibold text-white tracking-wide">
+          
+        </span>
+      </div>
+
+      {/* Desktop Menu */}
+      <div className="hidden md:flex gap-8 text-white font-medium tracking-wide ml-[100px]">
+  <Link href="#about" className="hover:text-[#4285F4] transition-colors">
+    About
+  </Link>
+  <Link href="#events" className="hover:text-[#EA4335] transition-colors">
+    Events
+  </Link>
+  <Link href="#team" className="hover:text-[#34A853] transition-colors">
+    Team
+  </Link>
+  <Link href="#contact" className="hover:text-[#FBBC05] transition-colors">
+    Contact
+  </Link>
 </div>
 
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex ml-[-40px] gap-8 text-[#1C1C1C] font-medium tracking-wide">
-          <Link
-            href="#about"
-            className="hover:text-[#4285F4] transition-all duration-300 hover:underline underline-offset-4"
-          >
-            About
-          </Link>
-          <Link
-            href="#events"
-            className="hover:text-[#EA4335] transition-all duration-300 hover:underline underline-offset-4"
-          >
-            Events
-          </Link>
-          <Link
-            href="#team"
-            className="hover:text-[#34A853] transition-all duration-300 hover:underline underline-offset-4"
-          >
-            Team
-          </Link>
-          <Link
-            href="#contact"
-            className="hover:text-[#FBBC05] transition-all duration-300 hover:underline underline-offset-4"
-          >
-            Contact
-          </Link>
-        </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden flex flex-col gap-1.5"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle menu"
-        >
-          <span className="w-6 h-[2px] bg-[#1C1C1C]"></span>
-          <span className="w-6 h-[2px] bg-[#1C1C1C]"></span>
-          <span className="w-6 h-[2px] bg-[#1C1C1C]"></span>
-        </button>
-      </div>
+      {/* Mobile Menu Button */}
+      <button
+        className="md:hidden flex flex-col gap-1.5 mr-4"
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
+      >
+        <span className="w-6 h-[2px] bg-white transition-all duration-300"></span>
+        <span className="w-6 h-[2px] bg-white transition-all duration-300"></span>
+        <span className="w-6 h-[2px] bg-white transition-all duration-300"></span>
+      </button>
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center bg-[#F1EFEA] border-t border-black/20 py-5 gap-4 font-medium tracking-wide text-[#1C1C1C]">
-          <Link
-            href="#about"
-            className="hover:text-[#4285F4] transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            About
-          </Link>
-          <Link
-            href="#events"
-            className="hover:text-[#EA4335] transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Events
-          </Link>
-          <Link
-            href="#team"
-            className="hover:text-[#34A853] transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Team
-          </Link>
-          <Link
-            href="#contact"
-            className="hover:text-[#FBBC05] transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Contact
-          </Link>
+        <div className="md:hidden flex flex-col items-center py-5 gap-4 font-medium tracking-wide text-white bg-black/40 backdrop-blur-md rounded-md">
+          <Link href="#about" className="hover:text-[#4285F4]" onClick={() => setIsOpen(false)}>About</Link>
+          <Link href="#events" className="hover:text-[#EA4335]" onClick={() => setIsOpen(false)}>Events</Link>
+          <Link href="#team" className="hover:text-[#34A853]" onClick={() => setIsOpen(false)}>Team</Link>
+          <Link href="#contact" className="hover:text-[#FBBC05]" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       )}
     </nav>

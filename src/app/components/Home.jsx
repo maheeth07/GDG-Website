@@ -71,13 +71,13 @@ export default function Home() {
   }, [controls]);
 
   const leftDoodles = [
-    { src: "/doodles/doodl11.svg", top: "0%", left: "20%", rotate: "0deg" },
-    { src: "/doodles/doodl10.svg", top: "0%", left: "50%", rotate: "0deg" },
-    { src: "/doodles/doodl1.svg", top: "10%", left: "5%", rotate: "-15deg" },
+     { src: "/doodles/doodl11.svg", top: "20%", left: "0%", rotate: "0deg" },
+    // { src: "/doodles/doodl10.svg", top: "0%", left: "50%", rotate: "0deg" },
+    { src: "/doodles/doodl1.svg", top: "15%", left: "15%", rotate: "-15deg" },
     { src: "/doodles/doodl2.svg", top: "35%", left: "10%", rotate: "10deg" },
     { src: "/doodles/doodl7.svg", top: "60%", left: "0%", rotate: "-5deg" },
-    { src: "/doodles/doodl8.svg", top: "55%", left: "15%", rotate: "20deg" },
-    { src: "/doodles/doodl9.svg", top: "55%", left: "30%", rotate: "40deg" },
+    // { src: "/doodles/doodl8.svg", top: "55%", left: "15%", rotate: "20deg" },
+    { src: "/doodles/doodl9.svg", top: "75%", left: "15%", rotate: "40deg" },
   ];
 
   const rightDoodles = [
@@ -89,7 +89,7 @@ export default function Home() {
 
   return (
     <main
-      className="min-h-screen flex flex-col items-center justify-start relative overflow-hidden px-6 md:px-12"
+      className="pt-[50px] min-h-screen flex flex-col items-center justify-start relative overflow-hidden px-6 md:px-12"
       style={{
         backgroundImage: "url('/bg.jpeg')",
         backgroundSize: "cover",
