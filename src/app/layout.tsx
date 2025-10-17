@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import SocialMedia from "./components/SocialMedia"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <Navbar/>
         <Home/>
+        <SocialMedia/>
         {children}
       </body>
     </html>
