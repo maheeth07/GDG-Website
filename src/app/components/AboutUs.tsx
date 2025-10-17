@@ -1,50 +1,102 @@
 "use client";
+import { motion } from "framer-motion";
 import FallingParticles from "./FallingParticles";
 
 export default function AboutUs() {
   return (
-    <div className="relative min-h-screen text-gray-200 px-8 py-20 flex items-center justify-center">
+    <div className="relative min-h-screen text-gray-100 px-8 py-24 flex flex-col items-center">
       {/* Background */}
-      <FallingParticles />
+   
 
-      {/* Content Section */}
-      <div className="z-10 max-w-4xl space-y-8 bg-black/30 backdrop-blur-sm p-10 rounded-2xl border border-gray-700">
-        <h1 className="text-4xl font-semibold text-center mb-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="text-center space-y-4 max-w-4xl"
+      >
+        <h1 className="text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-400">
           About GDG OnCampus VIIT
         </h1>
-
-        <p className="text-gray-300 leading-relaxed text-justify">
-          GDG OnCampus VIIT is a community of passionate developers,
-          innovators, and learners driven by curiosity and the desire to build
-          impactful solutions using technology. Our goal is to create a space
-          where ideas grow through collaboration and creativity.
+        <p className="text-lg text-gray-300">
+          A community fostering innovation, collaboration, and technical growth.
         </p>
+      </motion.div>
 
-        <p className="text-gray-300 leading-relaxed text-justify">
-          We regularly conduct events, workshops, hackathons, and study jams
-          that bring students together to explore emerging technologies such as
-          Artificial Intelligence, Web and App Development, Cloud Computing, and
-          more. Every event is carefully curated to provide practical
-          hands-on experience alongside theoretical understanding.
-        </p>
+      {/* Sections */}
+      <div className="mt-16 space-y-12 max-w-4xl w-full">
+        {/* Section 1 */}
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-3"
+        >
+          <h2 className="text-2xl font-semibold text-gray-100">Developer Community</h2>
+          <p className="text-gray-300 leading-relaxed text-justify">
+            GDG OnCampus VIIT brings together learners and innovators to collaborate, learn, and create meaningful projects.
+          </p>
+        </motion.div>
 
-        <p className="text-gray-300 leading-relaxed text-justify">
-          Our events are led by experienced mentors, industry speakers, and
-          student leaders who guide participants through the latest tools and
-          frameworks. Whether you’re a beginner or an experienced developer, GDG
-          OnCampus ensures there’s always something new to learn, build, and
-          share.
-        </p>
+        {/* Section 2 */}
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-3"
+        >
+          <h2 className="text-2xl font-semibold text-gray-100">Events</h2>
+          <p className="text-gray-300 leading-relaxed text-justify">
+            We organize workshops, hackathons, and sessions guided by mentors to provide practical learning experiences.
+          </p>
+        </motion.div>
 
-        <p className="text-gray-300 leading-relaxed text-justify">
-          Beyond technical knowledge, GDG OnCampus VIIT fosters teamwork,
-          leadership, and problem-solving skills, helping students grow both
-          professionally and personally. Together, we aim to cultivate a
-          community that learns, builds, and innovates — one event at a time.
-        </p>
+        {/* Section 3 */}
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-3"
+        >
+          <h2 className="text-2xl font-semibold text-gray-100">Innovation</h2>
+          <p className="text-gray-300 leading-relaxed text-justify">
+            We promote creativity, teamwork, and a culture of continuous learning to build the next generation of tech innovators.
+          </p>
+        </motion.div>
 
-     
+        {/* Section 4 */}
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-3"
+        >
+          <h2 className="text-2xl font-semibold text-gray-100">Mentorship</h2>
+          <p className="text-gray-300 leading-relaxed text-justify">
+            Experienced mentors guide members through learning paths, coding practices, and real-world projects to ensure continuous growth.
+          </p>
+        </motion.div>
+
+        {/* Section 5 */}
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="space-y-3"
+        >
+          <h2 className="text-2xl font-semibold text-gray-100">Community Impact</h2>
+          <p className="text-gray-300 leading-relaxed text-justify">
+            Our activities aim to create a positive impact in the tech community by sharing knowledge, hosting events, and inspiring innovation among students.
+          </p>
+        </motion.div>
       </div>
+
+   
     </div>
   );
 }

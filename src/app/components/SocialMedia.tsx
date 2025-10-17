@@ -13,7 +13,7 @@ interface SocialLink {
 const socialLinks: SocialLink[] = [
   { name: "Instagram", href: "https://www.instagram.com/gdgc_viit", icon: Instagram, color: "#E4405F" },
   { name: "LinkedIn", href: "https://www.linkedin.com/company/gdg-oncampus-viit", icon: Linkedin, color: "#0A66C2" },
-  { name: "GitHub", href: "https://github.com", icon: Github, color: "#FFFFFF" },
+  { name: "GitHub", href: "https://github.com/GDG-Oncampus-VIIT-24", icon: Github, color: "#FFFFFF" },
   { name: "Email", href: "dscviit@gmail.com", icon: Mail, color: "#F4B400" },
 ];
 
