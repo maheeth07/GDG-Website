@@ -187,7 +187,7 @@ export default function Home() {
 
         {/* Join Button */}
         <motion.a
-          href="#join"
+          href="https://gdg.community.dev/gdg-on-campus-vignans-institute-of-information-technology-visakhapatnam-india"
           whileHover={{
             scale: 1.07,
             y: -4,
