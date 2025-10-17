@@ -11,10 +11,10 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
-  { name: "Instagram", href: "https://instagram.com/gdgoncampusviit", icon: Instagram, color: "#E4405F" },
-  { name: "LinkedIn", href: "https://linkedin.com/company/gdgoncampusviit", icon: Linkedin, color: "#0A66C2" },
-  { name: "GitHub", href: "https://github.com/gdgoncampusviit", icon: Github, color: "#FFFFFF" },
-  { name: "Email", href: "mailto:gdgoncampus@viit.ac.in", icon: Mail, color: "#F4B400" },
+  { name: "Instagram", href: "https://www.instagram.com/gdgc_viit", icon: Instagram, color: "#E4405F" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/gdg-oncampus-viit", icon: Linkedin, color: "#0A66C2" },
+  { name: "GitHub", href: "https://github.com", icon: Github, color: "#FFFFFF" },
+  { name: "Email", href: "dscviit@gmail.com", icon: Mail, color: "#F4B400" },
 ];
 
 export default function ContactUs() {
