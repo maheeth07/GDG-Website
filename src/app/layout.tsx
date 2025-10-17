@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import SocialMedia from "./components/SocialMedia"
+import FallingParticles from "./components/FallingParticles"
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,6 +33,7 @@ export default function RootLayout({
       >
         <Navbar/>
         <Home/>
+        <FallingParticles/>
         <SocialMedia/>
         {children}
       </body>
