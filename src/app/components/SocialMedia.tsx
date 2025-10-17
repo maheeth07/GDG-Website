@@ -23,7 +23,7 @@ export default function ContactUs() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-start relative px-4">
       {/* Heading */}
-      <div className="text-center z-10 max-w-4xl pt-12 md:pt-16">
+      <div className="text-center z-10 max-w-4xl pt-12 md:pt-16" id="socials">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
           <span className="text-white">Connect</span>{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-green-500">

@@ -24,16 +24,16 @@ export default function Navbar() {
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-8 text-white font-medium tracking-wide ml-[100px]">
-  <Link href="#about" className="hover:text-[#4285F4] transition-colors">
+  <Link href="#aboutus" className="hover:text-[#4285F4] transition-colors">
     About
   </Link>
   <Link href="#events" className="hover:text-[#EA4335] transition-colors">
     Events
   </Link>
-  <Link href="#team" className="hover:text-[#34A853] transition-colors">
+  <Link href="#teams" className="hover:text-[#34A853] transition-colors">
     Team
   </Link>
-  <Link href="#contact" className="hover:text-[#FBBC05] transition-colors">
+  <Link href="#socials" className="hover:text-[#FBBC05] transition-colors">
     Contact
   </Link>
 </div>

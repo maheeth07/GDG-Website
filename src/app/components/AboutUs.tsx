@@ -4,7 +4,7 @@ import FallingParticles from "./FallingParticles";
 
 export default function AboutUs() {
   return (
-    <div className="relative min-h-screen text-gray-100 px-8 py-24 flex flex-col items-center">
+    <div className="relative min-h-screen text-gray-100 px-8 py-24 flex flex-col items-center" id="aboutus">
       {/* Background */}
    
 

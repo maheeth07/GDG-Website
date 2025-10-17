@@ -123,7 +123,7 @@ export default function Home() {
       />
 
       {/* Dark overlay for contrast */}
-      <div className="absolute inset-0 bg-black/40 z-10"></div>
+      <div className="absolute inset-0 bg-black/40 z-10" id="home"></div>
 
       {/* Left Doodles */}
       {leftDoodles.map((doodle, idx) => (

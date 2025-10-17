@@ -49,7 +49,7 @@ export default function Team() {
                         and innovators all working together to make an impact.
                     </p>
 
-                    <div className="relative w-full overflow-visible mt-2 pb-8">
+                    <div className="relative w-full overflow-visible mt-2 pb-8" id="teams">
                         <motion.div
                             style={{ x: xTransform }}
                             className="flex gap-10 pl-[5vw] will-change-transform"
