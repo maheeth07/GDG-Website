@@ -75,7 +75,7 @@ export default function Events() {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-0"></div>
+      <div className="absolute inset-0 bg-black/40 z-0" id="events"></div>
 
       {/* Header */}
       <motion.div
